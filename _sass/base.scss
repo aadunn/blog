@@ -1,0 +1,50 @@
+/* font declarations */
+@font-face {
+    font-family: "meiji-sans";
+    src: url("assets/fonts/meiji-sans-bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "meiji-sans";
+    src: url("assets/fonts/meiji-sans-book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "meiji-sans";
+    src: url("assets/fonts/meiji-sans-book-italics.woff") format('woff');
+    font-weight: italic;
+}
+
+/* start custom sass */
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Meiji Sans", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+h3 {
+	font-size: 60px;
+}
+
+h4 {
+	font-size: 40px;
+}
+
+.center {
+	margin: auto;
+}

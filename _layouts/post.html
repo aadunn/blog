@@ -1,0 +1,24 @@
+---
+layout: post
+---
+
+{% include head.html %}
+
+<article class="article">
+  <section class="article-cover">
+  	<img class="header-image" src="{{ page.headerImage }}" alt="{{ page.headerAlt }}">
+	  <span>
+	    <h3>{{ page.postId }}:</h3>
+	    <h1>{{ page.title }}</h1>
+	    <h4>{{ page.date }}</h4><!-- TODO: format date -->
+	  </span>
+	</section>
+
+	<div class="content-wrapper">
+		<section class="article-body center" itemprop="articleBody">
+			{{ content }}
+		</section>
+	</div>
+</article>
+
+{% include footer.html %}
