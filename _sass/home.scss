@@ -2,3 +2,26 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
+.posts  {
+	margin-top: 3%;
+}
+
+.post-list {
+	li {
+		padding: 0;
+		width: 70%;
+		color: white;
+
+		.post-summary {
+			padding: 5%;
+			padding-left: 2%;
+			padding-bottom: 1%;
+			margin-left: 0;
+
+			a {
+				width:100%;
+			}
+		}
+	}
+}

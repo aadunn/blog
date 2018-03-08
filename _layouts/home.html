@@ -1,13 +1,22 @@
 ---
+layout: default
 ---
-<div class="post-list">
-	{% for post in site.posts %}
-	<div class="post-summary">
-    <a href="{{ post.url | absolute_url }}">
-      <img class="summary-image" src="{{ post.headerImage }}" alt="{{ post.headerAlt }}">
-	    <h3>{{ post.postId }}:</h3>
-	    <h1>{{ post.title }}</h1>
-    </a>
-  </div>
-  {% endfor %}
+<div class="posts center">
+	<ul class="post-list center">
+		{% for post in site.posts %}
+		<li class="center">
+			<a class="post-link" href="{{ post.url | absolute_url }}">
+				<div class="post-summary" 
+					style="background-image: url({{ post.headerImage }}); background-position: center">
+		    
+		      <div class="title-container">
+				    <h3 >{{ post.postId }}:</h3>
+				    <h1>{{ post.title }}</h1>
+				  </div>
+		    
+		  	</div>
+			</a>
+		</li>
+	  {% endfor %}
+	</ul>
 </div>
