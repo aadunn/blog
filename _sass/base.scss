@@ -49,6 +49,7 @@ a:hover {
   width: 100%;
   padding: 1%;
   border-style: solid;
+  border-color: gray;
   border-width: 0px 0px 2px 0px;
 
   .site-title {
@@ -57,7 +58,15 @@ a:hover {
 }
 
 .site-footer {
+  width: 100%;
+  padding: 1%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px 0px 0px 0px;
 
+  position:absolute;
+  bottom:0;
+  height:60px;   /* Height of the footer */
 }
 
 h1.title {
