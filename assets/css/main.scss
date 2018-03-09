@@ -10,8 +10,9 @@ $spacing-unit:     30px !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+$drop-shadow:			 #0000FF;
 
-$base-font-size:	 20px !default;
+$base-font-size:	 18px !default;
 
 // width of the content area
 $content-width:    800px !default;
