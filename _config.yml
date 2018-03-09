@@ -12,12 +12,14 @@ title: blog.aadunn
 author: Alex Dunn
 email: alex@aadunn.ca
 description:  # this means to ignore newlines until "baseurl:"
-  Personal blog for documenting the drab life of Alex Dunn.
+  Personal blog for documenting my strange life.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.aadunn.ca" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aadunn
 linkedin_username: alex@aadunn.ca
+
+permalink: pretty
 
 # Build settings
 markdown: kramdown

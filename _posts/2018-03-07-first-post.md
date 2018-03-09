@@ -1,28 +1,20 @@
 ---
 layout: post
 postId:			"001"
-title:  "First Post"
-date:   2018-03-07 18:34:32 -0400
+title:  "Initialization"
+date:   2018-03-09 10:48:32
 categories: daily
-headerImage: /assets/images/first-flight-center.jpg
-headerAlt: "elite bird pic"
+headerImage: /assets/images/fenwick.jpg
+headerAlt: "skyline"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+**Weclome**
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This started as a first look into using Jekyll that evolved into me actually caring about documenting the happenings of my life. I mostly wanted to look into it after seeing Nuno's [15 Days in Japan blog](http://15daysinjapan.com), where my theme clearly draws inspiration from.
 
-Jekyll also offers powerful support for code snippets:
+Anyway hey, what is up, my homies.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+My name is Alex Dunn. I am in my last year of Computer Science at Dalhousie University. I have taken a growing, side interest in photography over the last few years, I listen to a wide range of music from Björk to Punk to R&B, and I enjoy playing and critcizing video games.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+I plan on using this blog to document the happenings of my life because my memory sucks and years later when I forgot who my friends are it'd be nice to look at pictures and probably, maybe remember. I don't plan on updating daily but rather whenever I recall this thing exists.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+So, here's to that I guess. Cheers. 🍵
