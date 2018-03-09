@@ -7,7 +7,7 @@ categories: daily
 headerImage: /assets/images/fenwick.jpg
 headerAlt: "skyline"
 ---
-**Weclome**
+**Welcome**
 
 This started as a first look into using Jekyll that evolved into me actually caring about documenting the happenings of my life. I mostly wanted to look into it after seeing Nuno's [15 Days in Japan blog](http://15daysinjapan.com), where my theme clearly draws inspiration from.
 
