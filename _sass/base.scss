@@ -55,6 +55,10 @@ a:hover {
   border-color: gray;
   border-width: 0px 0px 2px 0px;
 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+
   .site-title {
     color: #000000;
   }
@@ -70,6 +74,10 @@ a:hover {
   position: relative;
   font-size: 10px;
 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -78,6 +86,11 @@ a:hover {
 
   p {
     margin-top:0;
+  }
+
+  .blog-link {
+    text-shadow: none;
+    font-size: 18px;
   }
 }
 
@@ -132,6 +145,11 @@ a:hover {
 
 
 /* element styling */
+
+h1,h2,h3,h4 {
+  color: white;
+  text-shadow: $drop-shadow;
+}
 
 h1.title {
 	font-size: 100px;

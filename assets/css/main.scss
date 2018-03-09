@@ -10,7 +10,7 @@ $spacing-unit:     30px !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$drop-shadow:			 #0000FF;
+$drop-shadow:			 2px 2px #000 !default;
 
 $base-font-size:	 18px !default;
 
@@ -20,6 +20,10 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
