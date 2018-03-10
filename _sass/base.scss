@@ -51,6 +51,9 @@ a:hover {
 .site-header {
   width: 100%;
   padding: 1%;
+
+  background-image: url("../images/space.jpg");
+  opacity: .75;
   border-style: solid;
   border-color: gray;
   border-width: 0px 0px 2px 0px;
@@ -60,7 +63,7 @@ a:hover {
   box-sizing: border-box;
 
   .site-title {
-    color: #000000;
+    color: $grey-color-light;
   }
 }
 
