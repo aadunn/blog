@@ -10,6 +10,7 @@
 	top: 0;
 	left: 0;
 	border: none;
+	object-fit: cover;
 }
 
 .summary-image {
@@ -18,6 +19,7 @@
 
 .article-cover {
 	height: 100vh;
+	line-height: 30px;
 	text-shadow: $drop-shadow;
 	
 	span {
