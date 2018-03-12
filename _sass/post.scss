@@ -53,3 +53,9 @@
 		color: blue;
 	}
 }
+
+@include media-query($on-palm) {
+  .article-body {
+    width: 90vw;
+  }
+}
