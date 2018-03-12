@@ -14,12 +14,11 @@
 }
 
 .summary-image {
-
+	object-fit: cover;
 }
 
 .article-cover {
 	height: 100vh;
-	line-height: 30px;
 	text-shadow: $drop-shadow;
 	
 	span {
@@ -32,6 +31,10 @@
 		text-align: left;
 		text-shadow: $drop-shadow;
 	}
+}
+
+.post-title {
+	line-height: 90px;
 }
 
 .content-wrapper {
