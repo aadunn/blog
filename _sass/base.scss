@@ -53,7 +53,7 @@ a:hover {
   padding: 1%;
 
   background-image: url("../images/space.jpg");
-  opacity: .75;
+  opacity: .90;
   border-style: solid;
   border-color: gray;
   border-width: 0px 0px 2px 0px;
@@ -163,24 +163,6 @@ a:hover {
 h1,h2,h3,h4 {
   color: white;
   text-shadow: $drop-shadow;
-}
-
-.article-cover {
-  h1 {
-    font-size: 100px;
-  }
-
-  h2 {
-    font-size: 80px;
-  }
-
-  h3 {
-    font-size: 60px;
-  }
-
-  h4 {
-    font-size: 40px;
-  }
 }
 
 .center {

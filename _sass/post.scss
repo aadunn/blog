@@ -20,6 +20,22 @@
 .article-cover {
 	height: 100vh;
 	text-shadow: $drop-shadow;
+
+	h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+
+  h4 {
+    font-size: 40px;
+  }
 	
 	span {
 		padding-left: 3%;
@@ -55,6 +71,24 @@
 }
 
 @include media-query($on-palm) {
+	.article-cover {
+		span {
+			h1 {
+				font-size: 50px;
+			}
+
+			h3 {
+
+				font-size: 40px;
+			}
+
+			h4 {
+
+				font-size: 20px;
+			}
+		}
+	}
+
   .article-body {
     width: 90vw;
   }
