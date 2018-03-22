@@ -10,7 +10,7 @@ layout: post
 	  <span>
 	    <h3 class="post-id">{{ page.postId }}:</h3>
 	    <h1 class="post-title">{{ page.title }}</h1>
-	    <h4 class="post-date">{{ page.date | date: "%Y.%m.%d" }}</h4><!-- TODO: format date -->
+	    <h4 class="post-date">{{ page.date | date: "%Y.%m.%d" }}</h4>
 	  </span>
 	</section>
 
@@ -20,5 +20,49 @@ layout: post
 		</section>
 	</div>
 </article>
+
+
+{% if page.next %}
+	{% assign next = page.next %}
+{% endif %}
+{% if page.previous %}
+	{% assign previous = page.previous %}
+{% endif %}
+
+<div class="next-previous">
+	<ul class="adjacent-list">
+		{% if page.next %}
+		<li>
+			<a class="post-link" href="{{ next.url | absolute_url }}">
+				<div class="post-summary" 
+					style="background-image: url({{ next.headerImage }}); background-position: center; opacity: .7;">
+		    
+		      <div class="title-container">
+				    <h3 >{{ next.postId }}:</h3>
+				    <h1>{{ next.title }}</h1>
+				  </div>
+		    
+		  	</div>
+			</a>
+		</li>
+		{% endif %}
+
+		{% if page.previous %}
+		<li>
+			<a class="post-link" href="{{ previous.url | absolute_url }}">
+				<div class="post-summary" 
+					style="background-image: url({{ previous.headerImage }}); background-position: center; opacity: .7;">
+		    
+		      <div class="title-container">
+				    <h3 >{{ previous.postId }}:</h3>
+				    <h1>{{ previous.title }}</h1>
+				  </div>
+		    
+		  	</div>
+			</a>
+		</li>
+		{% endif %}
+	</ul>
+</div>
 
 {% include footer.html %}

@@ -5,6 +5,6 @@ _site
 
 node_modules/
 
-# ide specific
+# IDE specific
 *.sublime-project
 *.sublime-workspace

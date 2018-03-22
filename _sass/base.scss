@@ -30,7 +30,7 @@ body {
 	font-family: "Meiji Sans", "Helvetica Neue", Helvetica, sans-serif;
 	//font-size: 14px;
 	line-height: 20px;
-  background-color: $grey-color-light;
+  background-color: white;
 }
 
 
@@ -69,13 +69,16 @@ a:hover {
 
 .site-footer {
   width: 100%;
-  max-height: 100px;
+  max-height: 150px;
+  min-height: 150px;
   padding: 1%;
   border-style: solid;
   border-color: gray;
   border-width: 2px 0px 0px 0px;
   position: relative;
   font-size: 10px;
+
+  background-color: $grey-color-light;
 
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 

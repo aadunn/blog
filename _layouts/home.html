@@ -1,22 +1,41 @@
 ---
 layout: default
 ---
-<div class="posts center">
-	<ul class="post-list center">
-		{% for post in site.posts %}
-		<li class="center">
-			<a class="post-link" href="{{ post.url | absolute_url }}">
+
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
+
+<article class="article">
+  <section class="article-cover">
+  	<img class="header-image" src="{{ post.headerImage }}" alt="{{ page.headerAlt }}">
+	  <span>
+	    <h3 class="post-id">{{ post.postId }}:</h3>
+	    <h1 class="post-title">{{ post.title }}</h1>
+	    <h4 class="post-date">{{ post.date | date: "%Y.%m.%d" }}</h4>
+	  </span>
+	</section>
+
+	<div class="content-wrapper">
+		<section class="article-body center" itemprop="articleBody">
+			{{ content }}
+		</section>
+	</div>
+</article>
+
+{% assign previous = site.posts[1] %}
+
+<div class="next-previous">
+	<li class="adjacent-list">
+			<a class="post-link" href="{{ previous.url | absolute_url }}">
 				<div class="post-summary" 
-					style="background-image: url({{ post.headerImage }}); background-position: center; opacity: .5;">
+					style="background-image: url({{ previous.headerImage }}); background-position: center; opacity: .7;">
 		    
 		      <div class="title-container">
-				    <h3 >{{ post.postId }}:</h3>
-				    <h1>{{ post.title }}</h1>
+				    <h3 >{{ previous.postId }}:</h3>
+				    <h1>{{ previous.title }}</h1>
 				  </div>
 		    
 		  	</div>
 			</a>
 		</li>
-	  {% endfor %}
-	</ul>
 </div>
