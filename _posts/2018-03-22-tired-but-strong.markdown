@@ -6,7 +6,6 @@ categories: daily
 headerImage: /assets/images/brightwood.jpg
 headerAlt: "brightwood"
 ---
-
 **Semester Closing Soon**
 
 School semester ends soon and I am excited to make the most of it. I am usually not a summer guy but I am so happy that the semester is out next month that I plan on getting things done this summer. 

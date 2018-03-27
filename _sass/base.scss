@@ -191,4 +191,18 @@ h1,h2,h3,h4 {
 
 .article-body {
   padding: 2%;
+  color: $grey-color-dark;
+}
+
+
+/* navigation hover effect */
+
+.post-summary {
+    filter: brightness(70%);
+    transition: all .1s linear;
+}
+
+.post-summary:hover {
+    filter: brightness(100%);
+    transition: all .1s linear;
 }
