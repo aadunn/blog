@@ -70,7 +70,6 @@ a:hover {
 
 .site-footer {
   width: 100%;
-  max-height: 150px;
   min-height: 150px;
   padding: 1%;
   border-style: solid;
@@ -192,17 +191,4 @@ h1,h2,h3,h4 {
 .article-body {
   padding: 2%;
   color: $grey-color-dark;
-}
-
-
-/* navigation hover effect */
-
-.post-summary {
-    filter: brightness(70%);
-    transition: all .1s linear;
-}
-
-.post-summary:hover {
-    filter: brightness(100%);
-    transition: all .1s linear;
 }

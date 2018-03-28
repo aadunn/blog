@@ -124,3 +124,23 @@
     width: 90vw;
   }
 }
+
+
+/* navigation hover effect */
+
+.adjacent-list {
+  background-color: black;
+}
+
+.post-summary {
+  background-position: center; 
+
+  opacity: .5;
+  transition: all .1s linear;
+}
+
+.post-summary:hover {
+  opacity: 1;
+  transition: all .1s linear;
+}
+
