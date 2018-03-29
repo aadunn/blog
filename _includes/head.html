@@ -18,8 +18,28 @@
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
   <!-- favicon -->
-  <link href="{{ "assets/images/favicon.ico" | relative_url }}" rel="icon" type="image/x-icon" />
+  <link href="{{ "/assets/images/favicon.ico" | relative_url }}" rel="icon" type="image/x-icon" />
 
   <!-- feed -->
   <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:title"   content="{{ page.postId }}: {{ page.title }}">
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.headerImage %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.headerImage }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
 </head>
