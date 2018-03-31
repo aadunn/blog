@@ -104,6 +104,14 @@ a:hover {
   a {
     color: $grey-color;
   }
+
+  .fa-github-alt {
+    color: white;
+  }
+
+  .fa-twitter {
+    color: $twitter-colour
+  }
 }
 
 .footer-col-wrapper {
@@ -114,9 +122,10 @@ a:hover {
 }
 
 .footer-col {
+  margin-bottom: 0;
   color: $grey-color-light;
   float: left;
-  margin-bottom: $spacing-unit / 2;
+  
   padding-left: $spacing-unit / 2;
 }
 
@@ -191,4 +200,8 @@ h1,h2,h3,h4 {
 .article-body {
   padding: 2%;
   color: $grey-color-dark;
+}
+
+.love {
+  color: lighten(red, 8%);
 }
