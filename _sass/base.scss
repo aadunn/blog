@@ -176,6 +176,8 @@ a:hover {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 

@@ -143,7 +143,27 @@
 	}
 
   .article-body {
-    width: 90vw;
+    width: 100vw;
+    padding: 0;
+
+    p {
+  		margin-left: 5%;
+  		margin-right: 5%;
+  	}
+  }
+
+  .image-container {
+  	width: 100vw;
+  	padding: 0;
+  	margin: 0;
+
+  	.body-image {
+  		width: 100vw;
+  	}
+
+  	.caption {
+  		text-align: center;
+  	}
   }
 }
 

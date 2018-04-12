@@ -4,7 +4,7 @@ layout: post
 postId: "005"
 categories: daily
 headerImage: /assets/images/falls.jpg
-headerAlt: ""
+headerAlt: "falls"
 ---
 **Lisa, Rbc, Scallops**
 

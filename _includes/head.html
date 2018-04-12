@@ -9,7 +9,7 @@
 	<meta name="copyright" content="2018, Alex Dunn">
 	<meta name="host" content="blog.aadunn.ca">
 
-	<!-- technical formatting -->
+	<!-- device formatting -->
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,8 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/ideal-image-slider.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/default.css" | relative_url }}">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
   <!-- favicon -->
@@ -25,7 +27,7 @@
   <!-- feed -->
   <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <!-- Twitter cards -->
+  <!-- twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ page.author }}">
   <meta name="twitter:title"   content="{{ page.postId }}: {{ page.title }}">
@@ -43,5 +45,5 @@
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:image" content="{{ site.title_image }}">
   {% endif %}
-  <!-- end of Twitter cards -->
+  <!-- end of twitter cards -->
 </head>
