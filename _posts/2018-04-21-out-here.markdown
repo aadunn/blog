@@ -1,0 +1,25 @@
+---
+title: OUT HERE
+layout: post
+postId: "006"
+categories: daily
+headerImage: /assets/images/blowers.jpg
+headerAlt: "blower street"
+---
+**Exams**
+
+For the last month I've been preparing and writing my exams for the semester. The boy pulled through and did well on all of them. I'm now focusing on finding work as soon as I can. CanNOt cONtaIn mY ExcITMenT AbOUt eXAms bEinG FinISheD!!!!!!!!!!!!!
+
+Going to try to take some courses online this summer to lighten the load of the fall semester (AKA MY LAST SEMESTER OF SCHOOL EVER).
+
+{% include image.html
+	image="/assets/images/haru-fresh.jpg"
+	alt="haru looking so goddamn cute"
+	caption="TOOK A CELEBRATORY PIC OF THIS FRESH LOOKIN' DUDE"
+%}
+
+**California**
+
+Heading to California on the 25th with my Dad and Brother. California was never a place that I was interested in visiting for whatever reason but after looking at all the things it has to offer I am super excited about going. I still don't really know our itinerary but I know we're landing in San Francisco and then driving everywhere from there.
+
+Super excited to go to some arcades, ever since Sparkles shut down at my local mall in like '05 I haven't had an arcade experience. Going to drag my brother out to some and hopefully wreck him at some SNK fighting games. Also going to try to drag them both to an aquarium because damn we don't have any aquariums in our city.
