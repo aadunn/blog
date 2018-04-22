@@ -13,7 +13,7 @@ For the last month I've been preparing and writing my exams for the semester. Th
 Going to try to take some courses online this summer to lighten the load of the fall semester (AKA MY LAST SEMESTER OF SCHOOL EVER).
 
 {% include image.html
-	image="/assets/images/haru-fresh.jpg"
+	img="/assets/images/haru-fresh.jpg"
 	alt="haru looking so goddamn cute"
 	caption="TOOK A CELEBRATORY PIC OF THIS FRESH LOOKIN' DUDE"
 %}
