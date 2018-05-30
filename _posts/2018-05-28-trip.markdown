@@ -1,0 +1,110 @@
+---
+title: Trip
+layout: post
+postId: "007"
+categories: daily
+headerImage: /assets/images/hollywood.jpg
+headerAlt: "hollywood sign"
+---
+
+From April 25th - May 3rd I was in California with my Dad and Brother. Unreal trip. California was never on my travel list but it delivered on so many levels.
+
+**Day 01**
+
+We flew into San Francisco and headed straight to our hotel. We stayed a block away from Fisherman's Wharf in a hotel that had a lot of super interesting art pieces. Once we got settled into our hotel we searched around for a bar on the wharf that would play the final Leafs games this season.
+
+Not a whole lot happened day one just because we only had half a day.
+
+**Day 02**
+
+We woke up early to go on a tour of Alcatraz. Alcatraz was wild. Although the history was amazingly interesting I could not stop thinking about all the spots I used to grind while playing Tony Hawk (but the history was incredible hah).
+
+After Alcatraz we toured around the city and did some sightseeing all over. We ate at a ramen shop for dinner, it was my Dad and Brother's introduction to that glorious meal and they are now hooked. Love that stuff.
+
+{% include image.html
+	img="/assets/images/alcatraz.jpg"
+	alt="Alcatraz"
+	caption="View of Alcatraz from the bay ferry."
+%}
+
+**Day 03**
+
+We spent the next day hanging out around the city. The morning was pretty lax, we toured around and did some sightseeing. We hopped off the bus at Golden Gate Park to walk around. The park was super nice and had a this awesome Japanese tea garden in it, was easily the most peaceful place in the city.
+
+After we walked around the park we rented a few bikes, stocked up on bevs, and biked the Golden Gate bridge. This was easily my favourite part of San Francisco, cycling in that city was a privilege. It took us around 40 minutes to bike from the pier across the bridge and back, there were tons of paved bike paths along most every road. Amazing.
+
+After that we went to the airport and rented a car to start driving south. Our first stop past San Francisco was the new Apple Park campus. Although it is closed to visitors, they have a visitor centre right next to it that showcases an AR diorama of the campus and how sick it is, an Apple store that has exclusive merch and such, and a lackluster café. Nice.
+
+Once we left the Apple campus we headed south again and stopped into Santa Cruz for a bite to eat and to walk the pier. After we ate we drove into Monterey to and got settled into our hotel for the night.
+
+{% include image.html
+	img="/assets/images/stream.jpg"
+	alt="stream"
+	caption="A small stream within the garden. Tranquil AF."
+%}
+
+**Day 04**
+
+Day four we went got breakfast and then went to the Monterey Bay Aquarium which was certified nutty. They had so many types of fish and marine life, they even had a bunch of penguins that were adorable. The otters were also adorable. I also saw my first Sunfish ever and that was super cool.
+
+After we spent two-ish hours there we started driving south again towards the Pacific Coast Highway (PCH). We drove through Big Sur, Pebble Beach, we did the seventeen mile drive. It was gorgeous. Never have I seen seascapes that looked that good. Truly unreal.
+
+We drove along the PCH, and an hour through this very small mountain road, until we landed in Santa Barbara  to settle down for the night.
+
+{% include image.html
+	img="/assets/images/kurage.jpg"
+	alt="jellyfish"
+	caption="There were tons of these beautiful guys swimming around."
+%}
+
+{% include image.html
+	img="/assets/images/pacific.jpg"
+	alt="pacific view"
+	caption="The bluest waters I have ever seen."
+%}
+
+**Day 05**
+
+Day 5 we slept in a little bit and took it easy before we left Santa Barbara. We drove south past LA towards Orange County. My Dad told my Brother and I about this spot my parents had stayed the last time they were in California a couple of years back called the Montage. We stopped in just so that we could see what it was like. Next thing I know we are staying there for the night and we're walking along the beach with hotel staff calling us by name 30 minutes post check-in. Insane.
+
+For dinner we wanted to have a nicer sit down meal to go with the Newport theme. We ate a steakhouse called [The Lumberyard](http://www.lblumberyard.com/). I was not expecting the quality that I received there. I got the pan-seared Hawaiian ahi and it must have been the best fish I have ever eaten. It was actually melting in my mouth.
+
+After the insanely delicious and satisfying dinner, we went back to the hotel and took it easy. I took full advantage of the full-size bath tub and I had a relaxing bath. Hell yeah.
+
+{% include image.html
+	img="/assets/images/montage.jpg"
+	alt="The Montage"
+	caption="View from The Montage lobby lounge."
+%}
+
+**Day 06**
+
+We woke up semi-early and drove into LA to get set up at our AirBnB for the next few nights. Once we arrived we took it easy for a few hours just to slow down and relax after the few days of driving. Pat and I walked to an In-N-Out that was close by and on the way we walked right past Hollywood High AKA one of the most famous LA skate spots. Super cool. Also Five Guys trumps In-N-Out any day of the week. In-N-Out is overrated.
+
+**Day 07**
+
+We toured around the city, going from West Hollywood to Beverly Hills to Santa Monica. We stopped in Santa Monica and got some lunch before we walked from the Santa Monica pier to Venice Beach. Very cool spot, was cool to actually see it in person. After that we went to the Hard Rock Cafe for dinner and had a super lackluster meal.
+
+We hung around the AirBnB for the next little while until we decided to head to the Griffith Observatory. Seeing this spot in person was super cool because I've seen it countless times in movies and other media. Inside they had tons of sick space exhibits and other various nerd shit. Right in the main foyer there was a pendulum swinging that displayed how the Earth is rotating. The pendulum was anchored in the center of a beautifully painted ceiling.
+
+{% include image.html
+	img="/assets/images/observatory.jpg"
+	alt="Griffith Observatory"
+	caption="Griffith Observatory at night. One of my favourite stops in LA."
+%}
+
+{% include image.html
+	img="/assets/images/ceiling.jpg"
+	alt="Ceiling above pendulum"
+	caption="Beautifully painted ceiling. Depicts Atlas holding up the world I think? IDK."
+%}
+
+**Day 08**
+
+For our last full day, we took our time hanging out. I did some shopping for Mother's day (and also for myself) and visited a small tea shop that was close by. The shop was called Chado and they had tons of different teas. I bought myself some Uji Genmaicha and it was definitely the best green tea I've ever had. The staff member who helped me was super nice and helped me out a lot. Shouts out to that guy.
+
+In the night we went to go see a comedy show at The Comedy Store where Chris D'elia, Judd Apatow, and others performed. Hilarious show, everyone had really great sets and we were all in tears.
+
+**Day 09**
+
+We woke up. We flew home. 👍

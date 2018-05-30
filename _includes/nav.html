@@ -1,0 +1,19 @@
+<div id="" class="">
+	<nav class="">
+		<ul class="nav-posts-list">
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ post.link | relative_url }}">
+					<img class="nav-image" src="{{ post.headerImage }}" alt="{{ post.headerAlt }}">
+				</a>
+				<a href="{{ post.link | relative_url }}">
+					<h5>{{ post.postId }}
+						<br>
+						{{ post.title }}
+					</h5>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</div>
