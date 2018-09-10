@@ -80,6 +80,7 @@ a:hover {
 
   background-color: #292929;
 
+  overflow: hidden;
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
@@ -112,6 +113,25 @@ a:hover {
   .fa-twitter {
     color: $twitter-colour
   }
+
+  .love-message {
+    position: absolute;
+    bottom: 0;
+    left:0;
+
+    width: 100vw;
+    height: 20px;
+
+    padding: 0;
+
+    background-color: black;
+
+    p {
+      text-align: center;
+      color: $grey-color;
+      font-size: 10px;
+    }
+  }
 }
 
 .footer-col-wrapper {
@@ -130,19 +150,19 @@ a:hover {
 }
 
 .footer-col-1 {
-  color: $grey-color;
+  color: $grey-color-light;
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  color: $grey-color;
+  color: $grey-color-light;
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  color: $grey-color;
+  color: $grey-color-light;
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width:         calc(45% - (#{$spacing-unit} / 2));
 }

@@ -5,6 +5,19 @@
 
   <body>
 
+    <nav class="hidden">
+      <ul>
+        {% for post in site.posts %}
+        <li>
+          <a href="{{ post.post_url }}">
+            <img src="{{ post.headerImage }}" alt="{{ post.headerAlt }}" />
+          </a>
+          <h5>{{ post.postId }}: {{ post.title }}</h5>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
     <main class="page-content center" aria-label="Content">
       <div class="wrapper center">
         {{ content }}
